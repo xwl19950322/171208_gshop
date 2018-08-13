@@ -1,4 +1,4 @@
-<!-- 底部选项卡 -->
+<!-- 底部选项卡组件 -->
 <template>
   <div class="footer_guide">
     <span class="guide_item" :class="{on: '/msite'===$route.path}" @click="goTo('/msite')">

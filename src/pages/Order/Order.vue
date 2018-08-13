@@ -37,7 +37,6 @@ export default {
     width: 60%;
     margin: 0 auto;
     text-align: center;
-
     >img {
       display: block;
       width: 100%;

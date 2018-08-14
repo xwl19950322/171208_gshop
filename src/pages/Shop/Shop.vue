@@ -1,4 +1,4 @@
-<!-- 内部选项卡 -->
+<!-- 商家内部选项卡 -->
 <template>
     <div>
         <ShopHeader></ShopHeader>

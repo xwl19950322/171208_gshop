@@ -6,7 +6,7 @@
         <a>
           <div class="shop_left">
             <!-- <img class="shop_img" :src="baseImageUrl+shop.image_path"> 后台数据改了，图片显示不了-->
-            <img class="shop_img" src="./images/shop/1.jpg"/>
+            <img class="shop_img" v-lazy="error"/>
           </div>
           <div class="shop_right">
             <section class="shop_detail_header">
@@ -57,7 +57,7 @@ export default {
   components: {Star},
   data() {
     return {
-      baseImageUrl: "http://cangdu.org:8001/img/"
+      baseImageUrl: "http://cangdu.org:8001/img/",
     };
   },
   props: {},
